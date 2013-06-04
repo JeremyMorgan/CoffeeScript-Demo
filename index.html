@@ -1,0 +1,21 @@
+<html>
+<title>CoffeeScript Demo</title>
+<script src="form.js"></script>
+<!-- <form id="mpgcalc" onsubmit="return validate(this);"> -->
+<form id="mpgcalc" onsubmit="return validate(this);">
+<ul style="list-style: none">
+<li>
+<label>Miles Traveled:</label>
+<input type="text" name="miles" />
+</li>
+<li>
+<label>Gallons Used:</label>
+<input type="text" name="gallons" />
+</li>
+<li>
+<label>Miles Per Gallon:</label>
+<div id="result"></div>
+</li>
+<li>
+<input type="submit" onClick="math(this.form)"></li>
+</ul>
